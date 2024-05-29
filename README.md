@@ -21,7 +21,7 @@ focus on Monte Carlo methods and models that involve
 a large number of calibration parameters.
 
 ## Background
-Programming platforms like TensorFlow and PyTorch have
+Programming platforms like TensorFlow have
 revolutionized the field of deep learning through 
 efficient gradient calculations in high-dimensional 
 spaces, thanks to built-in AD capabilities. 
@@ -41,3 +41,9 @@ methods with traditional non-AD approaches.
 - Focus on Monte Carlo methods and models with extensive
 calibration parameters.
 
+## Models Implemented
+- Black Scholes Model
+- Binomial Tree Model
+- Monte Carlo Simulation
+- Vasicek Model
+- Hull-White Model
