@@ -1,0 +1,297 @@
+body {
+    background: linear-gradient(to bottom, #f0f0f0, #dcdcdc);
+    font-family: 'Arial', sans-serif;
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: #2c3e50;
+    text-shadow: 2px 2px 5px #aaa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-custom {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header-custom {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.section-background {
+    background: #e0f7fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-btn {
+    background: #3498db;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    background: #2980b9;
+}
+
+/* Style for the input form container */
+.input-form-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Style for the labels in the input form */
+.input-form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Style for the input fields in the input form */
+.input-form-input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Style for the RadioItems component */
+.radio-items {
+    margin-bottom: 20px;
+}
+
+.radio-items .form-check {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.radio-items .form-check-input {
+    border-radius: 50%;
+    border: 2px solid #3498db;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.radio-items .form-check-label {
+    margin-left: 5px; /
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #020000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricer-button {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: inline;
+}
+
+.pricer-button:hover {
+    transform: scale(1.05);
+}
+
+.pricer-button.black-scholes {
+    background: #26A38A;
+}
+
+.pricer-button.binomial-tree {
+    background: #9B6AB0;
+}
+
+.pricer-button.monte-carlo {
+    background: #2B83D2;
+}
+
+.pricer-button.vasicek {
+    background: #1B92AC;
+}
+
+.pricer-button.hull-white {
+    background: #2c3e50;
+}
+
+/* Style for Black-Scholes pricer container */
+.black-scholes-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the header of the Black-Scholes pricer */
+.black-scholes-header {
+    /*text-align: center;*/
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for the column containing results and custom plot */
+.results-plot-column {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the card containing graph options */
+.graph-options-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for the card header */
+.card-header-custom {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Style for labels in the graph options card */
+.graph-options-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Style for dropdown */
+.graph-options-dropdown {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* assets/styles.css */
+.graph-options-checklist .dash-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.graph-options-checklist .dash-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+
+.mt-4 {
+    margin-top: 20px !important;
+}
+
+/* Style for the Binomial Tree pricer container */
+.binomial-tree-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style for the header of the Binomial Tree pricer */
+.binomial-tree-header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Style for the column containing results and custom plot */
+.results-plot-column {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+/* Style for the plot headers */
+.card-header-custom {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+    text-align: center;
+}
+
+/* Style for the plot card */
+.plot-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for the plot card body */
+.plot-card-body {
+    padding: 20px;
+}
+
+/* Style for the Monte Carlo pricer container */
+.monte-carlo-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style for the header of the Monte Carlo pricer */
+.monte-carlo-header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Style for the column containing results and custom plot */
+.results-plot-column {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style for footer */
+.footer {
+    text-align: center;
+    color: #888;
+    padding: 10px;
+    margin-top: 20px;
+}
